@@ -1,0 +1,74 @@
+{
+    // 在 VS Code 里打包 / 运行打砖块，全程不打开 Unity 界面。
+    // Ctrl+Shift+B  跑默认任务（发布版打包）
+    // Ctrl+Shift+P -> Tasks: Run Task  可以选下面任意一条
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "打砖块: 打包 exe（发布版）",
+            "detail": "命令行调 Unity 打包成 Build\\Windows\\Breakout3D.exe，不打开 Unity 界面。",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile", "-ExecutionPolicy", "Bypass",
+                "-File", "${workspaceFolder}\\.vscode\\build-breakout.ps1",
+                "-Mode", "Release"
+            ],
+            "options": { "cwd": "${workspaceFolder}" },
+            "group": { "kind": "build", "isDefault": true },
+            "presentation": { "reveal": "always", "panel": "dedicated", "clear": true },
+            "problemMatcher": []
+        },
+        {
+            "label": "打砖块: 打包 exe（可调试版）",
+            "detail": "带 Development + AllowDebugging，产物 Breakout3D-Debug.exe，可以用 VS Code 断点调试。",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile", "-ExecutionPolicy", "Bypass",
+                "-File", "${workspaceFolder}\\.vscode\\build-breakout.ps1",
+                "-Mode", "Debug"
+            ],
+            "options": { "cwd": "${workspaceFolder}" },
+            "presentation": { "reveal": "always", "panel": "dedicated", "clear": true },
+            "problemMatcher": []
+        },
+        {
+            "label": "打砖块: 打包并运行（可调试版）",
+            "detail": "先打包可调试版本，然后直接启动 exe。",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile", "-ExecutionPolicy", "Bypass",
+                "-File", "${workspaceFolder}\\.vscode\\build-breakout.ps1",
+                "-Mode", "Debug", "-Run"
+            ],
+            "options": { "cwd": "${workspaceFolder}" },
+            "presentation": { "reveal": "always", "panel": "dedicated", "clear": true },
+            "problemMatcher": []
+        },
+        {
+            "label": "打砖块: 只运行已打好的可调试版",
+            "detail": "不重新打包，直接启动 Build\\Windows\\Breakout3D-Debug.exe。",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile", "-Command",
+                "if (Test-Path '${workspaceFolder}\\Build\\Windows\\Breakout3D-Debug.exe') { Start-Process '${workspaceFolder}\\Build\\Windows\\Breakout3D-Debug.exe' } else { Write-Host '还没打包过。先跑 Tasks -> 打砖块: 打包 exe（可调试版）' -ForegroundColor Yellow }"
+            ],
+            "presentation": { "reveal": "always", "panel": "shared" },
+            "problemMatcher": []
+        },
+        {
+            "label": "打砖块: 打开打包日志 build.log",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-NoProfile", "-Command",
+                "if (Test-Path '${workspaceFolder}\\build.log') { code '${workspaceFolder}\\build.log' } else { Write-Host '还没有 build.log，先打一次包。' -ForegroundColor Yellow }"
+            ],
+            "presentation": { "reveal": "always", "panel": "shared" },
+            "problemMatcher": []
+        }
+    ]
+}

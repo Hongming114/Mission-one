@@ -1,0 +1,46 @@
+# ============================================================
+#  Unity 工程 .gitignore
+#  Library/ 是 Unity 自动生成的导入缓存（本工程约 1.9 GB / 3.8 万文件），
+#  完全由 Assets/ 与 ProjectSettings/ 推导而来，不需要也不应该提交。
+#  首次打开工程时 Unity 会自己重建它。
+# ============================================================
+
+# --- Unity 生成目录（缓存，绝不提交）---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# --- Unity 自动生成的 IDE 工程文件（Unity 会重新生成）---
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.mdb
+*.opendb
+*.VC.db
+
+# --- 系统与编辑器杂物 ---
+.DS_Store
+Thumbs.db
+sysinfo.txt
+.vs/
+.idea/
+
+# --- 构建产物 ---
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
