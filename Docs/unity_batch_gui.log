@@ -1,0 +1,672 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.2f1 (eb73d3b415a1) revision 15430611'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chair" at "2026-10-11T08:19:48.7496843Z"
+OS: 'Windows 11  (10.0.26200) CoreCountrySpecific' Language: 'zh' Physical Memory: 16107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-11T08:19:48Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+C:\Users\chair\Desktop\vibe-gaming\DungeonCity
+-logFile
+C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Docs\unity_batch_gui.log
+-executeMethod
+ProjectSetup.BatchAll
+Successfully changed project path to: C:\Users\chair\Desktop\vibe-gaming\DungeonCity
+C:/Users/chair/Desktop/vibe-gaming/DungeonCity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [22788]  Target information:
+
+Player connection [22788]  * "[IP] 10.250.23.234 [Port] 55504 [Flags] 2 [Guid] 2231465328 [EditorId] 2231465328 [Version] 1048832 [Id] WindowsEditor(7,Minister) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22788] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22788] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-4800" after 0.2 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-chair"
+[Licensing::IpcConnector] LicenseClient-chair channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-chair-6000.5.2 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 5748)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chair-6000.5.2" at "2026-10-11T08:19:51.8602243Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 5748, path: "C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              9c766544c0dd453fb54a92d69863d0f4
+  Correlation Id:          585b538f532dc11c5c9d11c71dd91ec5
+  External correlation Id: 16339676021987168
+  Machine Id:              UWsxxFyupWvWYra0xuNBwINwxaY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-chair-6000.5.2" (connect: 0.38s, validation: 0.08s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chair-6000.5.2-notifications" at "2026-10-11T08:19:51.9535393Z"
+[Licensing::Module] Connected to LicensingClient (PId: 5748, launch time: 0.01, total connection time: 0.47s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 3.24s
+[Licensing::Module] Licensing is initialized (took 2.67s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 104 unused hashed content files
+Initialize engine version: 6000.5.2f1 (eb73d3b415a1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/chair/Desktop/vibe-gaming/DungeonCity/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5060 Laptop GPU (ID=0x2d59)
+    Vendor:          NVIDIA
+    VRAM:            7810 MB
+    App VRAM Budget: 7042 MB
+    Driver:          32.0.15.8205
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002845 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.786 seconds
+Domain Reload Profiling: 2040ms
+	BeginReloadAssembly (412ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (196ms)
+	LoadAllAssembliesAndSetupDomain (600ms)
+		LoadAssemblies (377ms)
+		AnalyzeDomain (426ms)
+			TypeCache.Refresh (425ms)
+				TypeCache.ScanAssembly (398ms)
+	FinalizeReload (791ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (203ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (267ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 41 packages:
+  Built-in packages:
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.modules.hierarchy@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.hierarchy)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.ugui@2.5.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.ugui@3d1ea40b73ef)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.director@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.video@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.amd@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.amd)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.nvidia@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.nvidia)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.uielementsnative@1.0.0 (location: C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Library\PackageCache\com.unity.modules.uielementsnative@c659ecd5b192)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.04 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/chair/Desktop/vibe-gaming/DungeonCity
+DisplayProgressbar: Compiling Scripts
+ExitCode: 4 Duration: 0s195ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (0.14 seconds), 0 items updated, 221 evaluated
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\netcorerun\netcorerun.exe "C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/chair/Desktop/vibe-gaming/DungeonCity
+ExitCode: 0 Duration: 0s339ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/chair/Desktop/vibe-gaming/DungeonCity
+ExitCode: 0 Duration: 0s80ms
+Finished compiling graph: 224 nodes, 1804 flattened edges (1710 ToBuild, 16 ToUse), maximum node priority 108
+*** Tundra build success (0.06 seconds), 0 items updated, 221 evaluated
+AssetDatabase: script compilation time: 1.166534s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.893 seconds
+Domain Reload Profiling: 2008ms
+	BeginReloadAssembly (601ms)
+		DisableScriptedObjects (38ms)
+		CreateAndSetChildDomain (188ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (161ms)
+	LoadAllAssembliesAndSetupDomain (294ms)
+		LoadAssemblies (302ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (10ms)
+			BuildScriptInfoCaches (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (897ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
+			AfterProcessingInitializeOnLoad (46ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Starting new worker id: 0 with log in C:/Users/chair/Desktop/vibe-gaming/DungeonCity/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=0d9e3b81d7090e84a919a4b17677d2e7): Total: 3.747 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1196 ms
+		Asset DB Callback time: managed=36 ms, native=42 ms
+		Scripting: domain reloads=1, domain reload time=1241 ms, compile time=1174 ms, other=56 ms
+		Project Asset Count: scripts=195, non-scripts=83
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 49.421ms
+	ApplyChangesToAssetFolders: 1.354ms
+	Scan: 126.812ms
+	Collect global state as custom dependencies: 6.365ms
+	CategorizeScriptCompilationAssets: 1.564ms
+	ProcessAssetsWithTransientArtifactChanges: 11.873ms
+	CategorizeAssets: 2.240ms
+	CompileScripts: 1174.014ms
+	ImportOutOfDateAssets: 913.910ms (900.893ms without children)
+		UnloadImportedAssets: 0.141ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.059ms
+		ImportSchedulerStart: 12.814ms
+	PostProcessAllAssets: 36.147ms
+		MonoPostProcessAllAssets: 36.089ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 11.778ms
+			SyncVS.PostprocessSyncProject 4.496ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.994ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.494ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.361ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.236ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.106ms
+	UnloadStreamsBegin: 2.463ms
+	Untracked: 1409.672ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 3.910ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-DungeonCity
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 411 unused Assets / (0.6 MB). Loaded Objects now: 1057.
+Memory consumption went from 199.7 MB to 199.1 MB.
+Total: 9.144700 ms (FindLiveObjects: 0.105200 ms CreateObjectMapping: 0.092300 ms MarkObjects: 8.527100 ms  DeleteObjects: 0.413200 ms)
+
+[ProjectSetup] ===== 开始全部自检 =====
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:212)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 212)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (2.2 KB). Loaded Objects now: 1059.
+Memory consumption went from 194.2 MB to 194.2 MB.
+Total: 6.855400 ms (FindLiveObjects: 0.062100 ms CreateObjectMapping: 0.041900 ms MarkObjects: 6.744900 ms  DeleteObjects: 0.005500 ms)
+
+Importing 'GUID: 9f781b575b4d8ba428f52be15daef448 - Path: Assets/Scenes' with importer (DefaultImporter)
+Imported 'GUID: 9f781b575b4d8ba428f52be15daef448' -> (Import Result ID: '1ecee1d296a1be3ee753f1d8c770a360') in 0.018 seconds [static dependencies only]. Details - ImportResultOutputID=5d07083f2014c655cbd708e754c47569 DependenciesID=6549fdd83a5d5625211a6d2834de295c StaticDependenciesID=227c06397b46e703e982f289c3a8458d 
+Importing 'GUID: 7237c40bc18d88e4286b56d69f8b3b78 - Path: Assets/Scenes/Main.unity' with importer (DefaultImporter)
+Imported 'GUID: 7237c40bc18d88e4286b56d69f8b3b78' -> (Import Result ID: 'fe322aaa4217b23b6e48ca8b9f59366e') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=1d74f6b267e0666b6c406438f3600c7e DependenciesID=3899966b236939bd60d228c33ad7f450 StaticDependenciesID=e8d134185154001021590e411d21c4fe 
+Asset Pipeline Refresh (id=afea0c3e68a5d244ab66e16a2948d27c): Total: 0.123 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+AcceleratorClientConnectionCallback - disconnected - :0
+Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: '6514964228424fa4933f35a7ad852804') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=4647dd083cfc32cebcd7526e8846440c DependenciesID=e2ff2ecd994c16c28a4789ede1d15623 StaticDependenciesID=8492d57eea0216c087656af99915732c 
+Asset Pipeline Refresh (id=7b8bd8e3445ec814c8919b324f6aafcc): Total: 0.033 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ProjectSetup] 场景已创建 Assets/Scenes/Main.unity（保存成功 = True，场景可以为空：运行时由 GameBootstrap 自动搭好一切）
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:CreateMainScene () (at Assets/Editor/ProjectSetup.cs:37)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:213)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 37)
+
+[ProjectSetup] 世界 M=1 (城市) 种子=20240601 I 矩阵 7x5 房间数=10 门对=12
+出生房间 (3, 2) 出生格 (5, 6)
+跨世界梯子 房间 (1, 3) 格 (5, 7)
+  房间(2,1) 测试城市房间 11x12 门[北东]
+  房间(3,1) 测试城市房间 15x11 门[北西]
+  房间(1,2) 测试城市房间 15x14 门[北东]
+  房间(2,2) 测试城市房间 15x12 门[北东南西]
+  房间(3,2) 测试城市房间 10x12 门[北东南西]
+  房间(4,2) 测试城市房间 14x10 门[东西]
+  房间(5,2) 测试城市房间 12x13 门[西]
+  房间(1,3) 测试城市房间 10x15 门[东南]
+  房间(2,3) 测试城市房间 14x11 门[东南西]
+  房间(3,3) 测试城市房间 11x11 门[南西]
+
+y=4 0 0 0 0 0 0 0 
+y=3 0 1 1 1 0 0 0 
+y=2 0 1 1 1 1 1 0 
+y=1 0 0 1 1 0 0 0 
+y=0 0 0 0 0 0 0 0 
+     x0 x1 x2 x3 x4 x5 x6 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:ValidateWorlds () (at Assets/Editor/ProjectSetup.cs:48)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:214)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 48)
+
+[ProjectSetup] 城市 世界自检通过（10 个房间）
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:ValidateWorlds () (at Assets/Editor/ProjectSetup.cs:54)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:214)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 54)
+
+[ProjectSetup] 世界 M=2 (地牢) 种子=20240602 I 矩阵 6x4 房间数=7 门对=8
+出生房间 (1, 2) 出生格 (7, 6)
+跨世界梯子 房间 (1, 2) 格 (7, 7)
+  房间(1,1) 测试地牢房间 15x15 门[北东]
+  房间(2,1) 测试地牢房间 10x15 门[北东西]
+  房间(3,1) 测试地牢房间 15x14 门[北东西]
+  房间(4,1) 测试地牢房间 11x12 门[西]
+  房间(1,2) 测试地牢房间 14x14 门[东南]
+  房间(2,2) 测试地牢房间 15x12 门[东南西]
+  房间(3,2) 测试地牢房间 12x10 门[南西]
+
+y=3 0 0 0 0 0 0 
+y=2 0 2 2 2 0 0 
+y=1 0 2 2 2 2 0 
+y=0 0 0 0 0 0 0 
+     x0 x1 x2 x3 x4 x5 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:ValidateWorlds () (at Assets/Editor/ProjectSetup.cs:48)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:214)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 48)
+
+[ProjectSetup] 地牢 世界自检通过（7 个房间）
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:ValidateWorlds () (at Assets/Editor/ProjectSetup.cs:54)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:214)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 54)
+
+[ProjectSetup] 已导出 C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Docs\Generated\城市_矩阵导出.txt
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:ExportMatrices () (at Assets/Editor/ProjectSetup.cs:63)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:215)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 63)
+
+[ProjectSetup] 已导出 C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Docs\Generated\地牢_矩阵导出.txt
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:ExportMatrices () (at Assets/Editor/ProjectSetup.cs:63)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:215)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 63)
+
+[ProjectSetup] 使用的 shader = (未找到)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:RenderPreviews () (at Assets/Editor/ProjectSetup.cs:105)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:216)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 105)
+
+[ProjectSetup] 城市 总览图 = C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Docs\Generated\城市_世界总览.png  尺寸 1440x900  粉色像素比例 = 0.00%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:RenderPreviews () (at Assets/Editor/ProjectSetup.cs:136)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:216)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 136)
+
+[ProjectSetup] 城市 出生房间图 = C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Docs\Generated\城市_出生房间.png  粉色像素比例 = 0.00%  房间 房间(3,2) 测试城市房间 10x12 门[北东南西]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:RenderPreviews () (at Assets/Editor/ProjectSetup.cs:150)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:216)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 150)
+
+[ProjectSetup] 地牢 总览图 = C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Docs\Generated\地牢_世界总览.png  尺寸 1440x900  粉色像素比例 = 0.00%
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:RenderPreviews () (at Assets/Editor/ProjectSetup.cs:136)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:216)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 136)
+
+[ProjectSetup] 地牢 出生房间图 = C:\Users\chair\Desktop\vibe-gaming\DungeonCity\Docs\Generated\地牢_出生房间.png  粉色像素比例 = 0.00%  房间 房间(1,2) 测试地牢房间 14x14 门[东南]
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:RenderPreviews () (at Assets/Editor/ProjectSetup.cs:150)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:216)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 150)
+
+[干跑] 城市：可站立格 1072 个，从出生格可达 1072 个（含门格传送到相邻房间后继续走）；出生格 -> 梯子格 = 32 步
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:DryRunPlayability () (at Assets/Editor/ProjectSetup.cs:184)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:217)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 184)
+
+[干跑] 城市：距出生房间 >= 2 的房间 5 / 10 个
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:DryRunPlayability () (at Assets/Editor/ProjectSetup.cs:190)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:217)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 190)
+
+[干跑] 地牢：可站立格 848 个，从出生格可达 848 个（含门格传送到相邻房间后继续走）；出生格 -> 梯子格 = 1 步
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:DryRunPlayability () (at Assets/Editor/ProjectSetup.cs:184)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:217)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 184)
+
+[干跑] 地牢：距出生房间 >= 2 的房间 4 / 7 个
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:DryRunPlayability () (at Assets/Editor/ProjectSetup.cs:190)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:217)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 190)
+
+[干跑] 第 1 次判定 -> 新生成 0 个，累计 0 个
+刷怪判定 M=2(Dungeon) 玩家房间=(1, 2) 种子=20241579
+规则：距离 >= 2 的房间，各抽 10%（向下取整）的格子，每格概率 P=0.02；判定周期 t=60s
+当前怪数 0 / 上限 14（= 2 x 房间数）
+满足距离条件的房间 4 个，抽样格子 40 个，判定成功 0 次，被上限压制 0 次
+本次实际生成 0 只：
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:DryRunPlayability () (at Assets/Editor/ProjectSetup.cs:201)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:217)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 201)
+
+[干跑] 第 2 次判定 -> 新生成 1 个，累计 1 个
+刷怪判定 M=2(Dungeon) 玩家房间=(1, 2) 种子=20242556
+规则：距离 >= 2 的房间，各抽 10%（向下取整）的格子，每格概率 P=0.02；判定周期 t=60s
+当前怪数 0 / 上限 14（= 2 x 房间数）
+满足距离条件的房间 4 个，抽样格子 40 个，判定成功 1 次，被上限压制 0 次
+本次实际生成 1 只：
+  怪 @ 房间(3,2) 格(2,2) 距离=2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:DryRunPlayability () (at Assets/Editor/ProjectSetup.cs:201)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:217)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 201)
+
+[干跑] 第 3 次判定 -> 新生成 2 个，累计 3 个
+刷怪判定 M=2(Dungeon) 玩家房间=(1, 2) 种子=20243533
+规则：距离 >= 2 的房间，各抽 10%（向下取整）的格子，每格概率 P=0.02；判定周期 t=60s
+当前怪数 1 / 上限 14（= 2 x 房间数）
+满足距离条件的房间 4 个，抽样格子 40 个，判定成功 2 次，被上限压制 0 次
+本次实际生成 2 只：
+  怪 @ 房间(2,1) 格(6,8) 距离=2
+  怪 @ 房间(3,1) 格(7,3) 距离=3
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:DryRunPlayability () (at Assets/Editor/ProjectSetup.cs:201)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:217)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 201)
+
+[干跑] 第 4 次判定 -> 新生成 0 个，累计 3 个
+刷怪判定 M=2(Dungeon) 玩家房间=(1, 2) 种子=20244510
+规则：距离 >= 2 的房间，各抽 10%（向下取整）的格子，每格概率 P=0.02；判定周期 t=60s
+当前怪数 3 / 上限 14（= 2 x 房间数）
+满足距离条件的房间 4 个，抽样格子 40 个，判定成功 0 次，被上限压制 0 次
+本次实际生成 0 只：
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:DryRunPlayability () (at Assets/Editor/ProjectSetup.cs:201)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:217)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 201)
+
+[干跑] 第 5 次判定 -> 新生成 0 个，累计 3 个
+刷怪判定 M=2(Dungeon) 玩家房间=(1, 2) 种子=20245487
+规则：距离 >= 2 的房间，各抽 10%（向下取整）的格子，每格概率 P=0.02；判定周期 t=60s
+当前怪数 3 / 上限 14（= 2 x 房间数）
+满足距离条件的房间 4 个，抽样格子 40 个，判定成功 0 次，被上限压制 0 次
+本次实际生成 0 只：
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:DryRunPlayability () (at Assets/Editor/ProjectSetup.cs:201)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:217)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 201)
+
+[干跑] 刷怪上限系数 = 2，上限 = 14 个
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:DryRunPlayability () (at Assets/Editor/ProjectSetup.cs:203)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:217)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 203)
+
+[ProjectSetup] ===== 全部自检完成，无异常 =====
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ProjectSetup:BatchAll () (at Assets/Editor/ProjectSetup.cs:218)
+
+(Filename: Assets/Editor/ProjectSetup.cs Line: 218)
+
+MonoPathRemapper: Attempts to remap: 2758; Successful remaps: 0
+Serialized file version minimum: 23, current 23
+Request timed out while processing request "https://public-cdn.cloud.unity3d.com/config/production", HTTP error code 0
+.[UnityConnect] Request timed out.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-chair-6000.5.2-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-chair-6000.5.2 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791706801304,"processId":4800,"allocatedMemory":15510146,"memoryLabels":[{"Default":4134266},{"Permanent":15516},{"NewDelete":66385},{"Thread":4205256},{"Manager":36421},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":841890},{"Material":24},{"GfxDevice":57728},{"Animation":952},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":1080},{"Input":42840},{"JobScheduler":256},{"TextLib":280},{"Mono":48},{"ScriptingNativeRuntime":674964},{"BaseObject":1621896},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":1032},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":12902},{"StaticString":3808},{"Utility":2674870},{"Curl":1712},{"PoolAlloc":2168},{"AI":80},{"TypeTree":8869},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":8392},{"WebRequest":885},{"VR":47114},{"SceneManager":608},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":2377},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":72},{"CoreStats":13688},{"Identifiers":6768},{"Gui":128},{"EditorUtility":88829},{"VersionControl":8},{"Undo":931},{"AssetDatabase":485534},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":38868},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3480},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}

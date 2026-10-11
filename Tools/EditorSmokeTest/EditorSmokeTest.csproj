@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>EditorSmokeTest</AssemblyName>
+    <RootNamespace>EditorSmokeTest</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <NoWarn>CS0649;CS0169;CS0414;CS0108;CS0114;CS0618;CS0660;CS0661;CS0162</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- 复用 CompileCheck 的 Unity 桩 + Assets 全量代码（含 Assets/Editor/ProjectSetup.cs） -->
+    <ProjectReference Include="..\CompileCheck\CompileCheck.csproj" />
+  </ItemGroup>
+
+</Project>
